@@ -1,0 +1,189 @@
+.page {
+    max-width: 1440px;
+    min-width: 100px;
+
+
+    margin: 0 auto;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.header {
+    width: 1038px;
+    margin: 20px auto;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+
+    list-style: none;
+    margin: 8px 0;
+    padding: 0;
+}
+
+.header__list-link {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
+
+    color: #2c2c2c;
+}
+
+.header__button {
+    display: flex;
+    align-items: center;
+
+    margin: 0;
+    padding: 8px 20px;
+
+    width: max-content;
+    height: 40px;
+
+    border-radius: 4px;
+    background-color: #2c2c2c;
+    color: aliceblue;
+
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.header__button:hover {
+    background-color: #cccccc;
+    color: #2c2c2c;
+}
+
+
+.header__list-item {
+    margin: 0px 32px;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    height: 846px;
+
+    background-image: url('img/about_bg.jpg');
+    background-size: cover;
+}
+
+.about-us__title {
+    margin: 150px auto 0;
+    padding: 0;
+
+    width: 850px;
+    height: max-content;
+
+    font-size: 100px;
+    line-height: 1.2;
+
+
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+
+    color: #fff;
+}
+
+.about-us__desc {
+    height: 50px;
+
+    color: #cccccc;
+}
+
+.study {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #fff;
+}
+
+.study__title {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    margin: 0;
+    padding: 20px;
+
+    display: flex;
+    max-width: fit-content;
+}
+
+.card__day {
+    border-right: 1px white solid;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.list--description {
+    height: 200px;
+    padding: 10px 0 0;
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+
+}
+
+.list__item {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list__item--description {
+    list-style: circle;
+    max-width: max-content;
+
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+.card__day {
+    font-size: 70px;
+    font-weight: 100;
+    line-height: 71.75px;
+
+    padding-right: 10px;
+}
+
+.card__info {
+    margin-left: 10px;
+}
+
+.card__title {
+    margin: 0;
+    padding: 0;
+
+    min-width: 300px;
+    height: 100px;
+
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 41px;
+
+}
+
+.card__spaekers {
+    font-style: italic;
+}

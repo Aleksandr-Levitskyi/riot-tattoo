@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./index.css">
+
+</head>
+
+<body class="page">
+    <header class="header">
+        <img src="#" alt="Riot Tattoo" class="logo logo--type--header">
+        <nav class="header__menu">
+            <ul class="header__list">
+                <li class="header__list-item"><a href="#study" class="header__list-link">План обучения</a></li>
+                <li class="header__list-item"><a href="#review" class="header__list-link">Отзывы</a></li>
+                <li class="header__list-item"><a href="#" class="header__list-link">Работы учеников</a></li>
+            </ul>
+            <a class="header__button" href="http://vk.com" target="_blank">Узнать стоимость</a>
+        </nav>
+    </header>
+    <main class="content">
+        <section class="about-us">
+            <h1 class="about-us__title">Добро пожаловать в&nbsp;RIOT</h1>
+            <p class="about-us__desc">Мы тут обучаем делать пиздатые татуировки</p>
+        </section>
+        <section class="study" id="study">
+            <h2 class="study__title">План Обучения</h2>
+            <ul class="list">
+            </ul>
+        </section>
+        <section class="review" id="review">
+            <h2 class="review__title">Отзывы</h2>
+            <button class="prev-btn">Back</button>
+            <h3 class="slider__title">
+                </h2>
+                <p class="slider__review"></p>
+                <button class="next-btn">Next</button>
+        </section>
+
+    </main>
+
+    <template id="card-template">
+        <li class="list__item">
+            <article class="card">
+                <span class="card__day"></span>
+                <div class="card__info">
+                    <h1 class="card__title">Лекция:&emsp;<span class="lesson-title"></span></h1>
+                    <ul id="list-container" class="list--description"></ul>
+                    <p class="card__speaker">Спикеры: <span class="card__spaekers"></span></p>
+                </div>
+            </article>
+        </li>
+    </template>
+    <script type="module" src="scripts/main.js"></script>
+</body>
+
+</html>
